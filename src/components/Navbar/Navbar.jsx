@@ -1,6 +1,7 @@
 // Import necessary components from react-router-dom for navigation and routing
 import { Link, NavLink, Outlet } from "react-router-dom";
 
+
 // Define the Navbar component
 export default function Navbar() {
 

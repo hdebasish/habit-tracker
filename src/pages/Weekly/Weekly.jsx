@@ -9,9 +9,6 @@ export default function Weekly() {
     // Use the habitSelector to retrieve habits from the Redux store
     const { habits } = useSelector(habitSelector);
 
-    // Log the habits to the console for debugging purposes
-    console.log(habits);
-
     // Array of day names for easier reference
     const day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
